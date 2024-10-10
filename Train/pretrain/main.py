@@ -6,7 +6,7 @@ from training import pretraining as pretrain_model
 from preprocess import PreDataset, CollateforPretraining, min_max_scale
 from dwn import DualbranchWovenNetwork
 
-random_seed = 42
+random_seed = 72
 random.seed(random_seed)
 torch.manual_seed(random_seed)
 
